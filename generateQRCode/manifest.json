@@ -1,0 +1,12 @@
+{
+    "name":"Generate QR Code",
+    "manifest_version":2,
+    "version":"0.0.1",
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon":"logo.png"
+    },
+    "icons":{
+        "128":"logo.png"
+    }
+}

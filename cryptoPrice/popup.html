@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="TE=edge">
+  <meta name="viewport" content="width=device-width, initial-scaled=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Crypto Price</title>
+</head>
+<body>
+  <label for="cryptoSymbol">Select a cryptocurrency symbol:</label>
+  <select id="cryptoSymbol">
+    <option value="ETHUSD">USD---Ethereum</option>
+    <option value="LTCUSD">USD---LiteCoin</option>
+    <option value="BTCUSD">USD---Bitcoin</option>
+  </select>
+  <button id="fetchPriceButton">Fetch Price</button>
+  <p id="priceElement">Price will be displayed here</p>
+  <script src="popup.js"></script>
+</body>
+</html>
